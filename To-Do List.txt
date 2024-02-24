@@ -1,0 +1,21 @@
+CSS
+Js React
+VueJS
+expressJS
+NodeJS
+Figma
+JSON
+MongoDB
+Mongoose
+TensorFlow
+Keras
+Scikitlearn
+Flask
+Django
+Git
+Github
+DSA
+System Design
+Docker
+Bootstrap
+Powershell and cmd usage
