@@ -406,7 +406,3 @@ print(np.linalg.matrix_power(var2,-2))
 print(np.linalg.det(var2)) #Determinant function
 print(np.linalg.det(var)) #Same as in maths
 """
-import numpy as np
-
-a = np.array([1,2,3,4])
-print(a)
