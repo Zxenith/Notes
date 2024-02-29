@@ -1,4 +1,6 @@
 #Some basic Pandas Functions and Classes.
+
+
 """
 #Series
 import pandas as pd
@@ -32,6 +34,8 @@ x2 = pd.Series([1,2,3,4,5])
 
 print(x1 - x2) #Can do same with Addition Mul and Div
 """
+
+
 """
 #Dataframes
 import numpy as np
