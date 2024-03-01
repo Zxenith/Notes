@@ -18,6 +18,8 @@ arn = np.array([1,2,3,4], ndnp.array([1,2,3,4],ndmin= 4)min = 10)
 print(arn)
 print(arn.ndim)
 """
+
+
 """
 #Special Arrays
 import numpy as np
