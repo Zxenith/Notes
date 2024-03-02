@@ -45,7 +45,6 @@ print(ar_rn)
 ar_diag = np.eye(3,5)
 print(ar_diag)
 
-
 ar_lin = np.linspace(1,10,num = 5) #(x,y,z) from x to y with number of elements = z with automatic gap)
 print(ar_lin)
 """
