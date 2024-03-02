@@ -1,3 +1,5 @@
+#Some basic matplotlib.pyplot functions and features. Give them a try.
+
 """from matplotlib import pyplot as plt
 import numpy as np
 
