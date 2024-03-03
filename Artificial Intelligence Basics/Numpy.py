@@ -70,6 +70,8 @@ print(arr_deci)
 arr_range = np.random.randint(2,9,4) #Generating array with a range and given elements (x,y,z) numbers from x to y generating z elements
 print(arr_range)
 """
+
+
 """
 #Bit size clarification
 import numpy as np
