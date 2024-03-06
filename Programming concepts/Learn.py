@@ -514,6 +514,8 @@ while (True):
 # "b" - binary mode.
 # "+" - read and write both.
 """
+
+
 """
 #Read a file
 x = open("FIle.txt", "rt")
