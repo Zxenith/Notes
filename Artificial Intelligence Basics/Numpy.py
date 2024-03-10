@@ -119,6 +119,8 @@ vardadd = vard1 + vard2 #Same 1D array functions can apply here.
 
 print(vardadd)
 """
+
+
 """
 #Arithmetic functions
 import numpy as np
