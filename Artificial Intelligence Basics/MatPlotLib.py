@@ -65,6 +65,8 @@ with open('ex.csv') as csv_file:
     plt.scatter(x, y, c='#00f', s=150, marker='.', alpha=0.3)  # colour, size, marker, transperency
     plt.show()
 """
+
+
 """
 import numpy as np
 from matplotlib import pyplot as plt
