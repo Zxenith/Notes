@@ -80,6 +80,8 @@ plt.scatter(x,y,c='#00f',s=150,marker='*',alpha=0.3) #colour, size, marker, tran
 #Color maps are also available getting different colored dots everywhere.
 plt.show()
 """
+
+
 """
 import numpy as np
 from matplotlib import pyplot as plt
