@@ -179,6 +179,8 @@ print(x1.ndim)
 one = x1.reshape(-1) #Reducing dimensions
 print(one)
 """
+
+
 """
 #Broadcasting
 
