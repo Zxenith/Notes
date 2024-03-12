@@ -139,6 +139,8 @@ print(np.sqrt(var1)) #Square root and same functions like np.sin() and np.cos()
 
 print(np.cumsum(var1)) #Community sum technique must learnN
 """
+
+
 """
 #Shaping (Matrix 2X2 vs array(2,2))
 import numpy as np
