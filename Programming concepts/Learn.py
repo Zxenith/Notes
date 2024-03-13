@@ -38,6 +38,8 @@ print(""+x+" is an "+y+"")
 y="genius"
 print(""+x+" is a "+y+"")
 """
+
+
 """
 #Variable datatypes
 x="Hello"
