@@ -1,0 +1,109 @@
+$ git config --global user.name Akarshan
+
+$ git config --global user.email akarshan.internet@gmail.com
+
+	"Setting Username and Email"
+
+$ git config user.name
+
+$ git config user.email
+
+	"Shows name and email"
+
+$ code .
+
+	"Opens VSCode"
+
+$ git init
+
+	"Initializes a git repository"
+
+$ ls -lart
+
+	"Shows all files, including hidden"
+
+$ git status
+
+	"Checks the status of the stages of a repo"
+
+$ git add git.html
+
+	"Adds a file to staging area"
+
+$ git commit
+
+Commit window:
+	Initial commit ~"This is just a message"
+	
+	'esc' :wq
+
+"A message pops up after checking the status again if any remaining files are there that are in the folder but not in git i.e. tree is not clean"
+
+$ git add GitNotes.txt
+
+$ git commit
+	"Same cycle with a message"
+	
+$ git status
+
+"Tree clean"
+
+$ touch about.html
+
+	"Creates new file from scratch"	
+
+$ touch basic.html
+
+$ git status
+
+$ git add -A
+
+	"Adds all files to staging area"
+
+$ git status
+
+	"Doing changes in about"
+
+$ git status
+
+	"Warning with some branches modified means unmodified code in staging area."
+
+$ git add -A
+
+	"Changes updated"
+
+$ git status
+
+$ git commit -m "Added more notes"
+
+	"Immediately commits with opening vim editor"
+
+$ git status
+
+	"After changing something in another file"
+
+$ git checkout basic.html
+
+	"Updated and undo changes with last commit"
+
+$ git checkout -f
+
+	"Undo all file changes"
+
+$ git log
+
+	"Information about changes"
+
+$ git log -p -2
+
+	"Tells last 2 changes, Press q to exit"
+
+$ clear
+	
+	"Clears the console"
+
+$ git diff
+	
+	"Shows difference between the files in working and staging area"
+
+$ 
