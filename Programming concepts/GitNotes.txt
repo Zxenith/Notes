@@ -171,3 +171,10 @@ $ git merge this1
 
 	"Merges said branch with master branch"
 
+$ git checkout -b this2
+
+	"Creates and switches to a new branch"
+
+	"We can create/manipulate functions and features to any branch, changes are done like so as well."
+
+$ 
