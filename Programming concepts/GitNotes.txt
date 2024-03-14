@@ -171,4 +171,3 @@ $ git merge this1
 
 	"Merges said branch with master branch"
 
-$ 
