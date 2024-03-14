@@ -177,4 +177,39 @@ $ git checkout -b this2
 
 	"We can create/manipulate functions and features to any branch, changes are done like so as well."
 
-$ 
+$ git remote add origin *URL here*
+
+	"Addes a remote repo and calls it origin"
+
+$ git remote
+
+	"Tells the working fetch/push repo"
+
+$ git remote -v
+
+	"Push/Fetch details"
+
+$ git push origin master
+
+	"Pushes content of master branch to origin repo that is from local to remote repo"
+
+	"SSH and GPG keys allowing github account access our system"
+	"After following ssh key commands and acces done"
+
+$ git remote set-url origin *New URL*
+	
+	"Changes URL for origin"
+
+$ git push -u origin master
+	
+	"Pushes local repo to remote repo that is copies files to github account"
+
+$ git push -u origin this2
+
+	"Pushes this2 branch content to repo"
+
+CLONING:
+
+$ git clone *URL* *folder name*
+
+	"Clones a github repo"
