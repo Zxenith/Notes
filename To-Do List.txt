@@ -12,8 +12,6 @@ Keras
 Scikitlearn
 Flask
 Django
-Git
-Github
 DSA
 System Design
 Docker
