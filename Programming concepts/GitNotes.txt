@@ -106,4 +106,69 @@ $ git diff
 	
 	"Shows difference between the files in working and staging area"
 
+$ git diff --staged
+
+	"Shows difference between staging and commited area"
+
+$ git commit -a -m "Commit without staging"
+	
+	"Commits without staging"
+
+$ ls
+
+	"Lists all files"
+
+$ touch waste.html
+
+	"Adding a wasted file"
+
+$ git add -A
+	
+	"Tracking is important"
+
+$ git commit -a -m "Added waste"
+
+	"Commiting waste"
+
+$ git rm waste.html
+
+	"Removes and deletes file from working and staging area both"
+
+$ git rm --cached waste.html 
+
+	"Removes from staging area only"
+
+$ git status -s
+
+	"short summary of changes"
+
+$ touch .gitignore
+
+	"Keeps unwanted files aside"
+
+$ touch mylogs.log
+
+	"Now write the file name with ext in gitignore file to ignore the file"
+	"Write / before file name if only the folder with gitignore has to ignore that file"
+	"*.log to ignore all log files"
+	"/ means folder path"
+
+$ git branch this1
+
+	"Creates a new branch in a repo"
+
+$ git branch 
+
+	"Shows current and available branches"
+
+$ git checkout this1
+
+	"Switches to the said branch"
+
+	"After commiting some stuff in this branch"
+
+$ git merge this1
+
+	"Merges said branch with master branch"
+
 $ 
