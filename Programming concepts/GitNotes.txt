@@ -1,10 +1,12 @@
 $ git config --global user.name Akarshan
 
+
 $ git config --global user.email akarshan.internet@gmail.com
 
 	"Setting Username and Email"
 
 $ git config user.name
+
 
 $ git config user.email
 
