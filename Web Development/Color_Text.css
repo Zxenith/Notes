@@ -3,6 +3,7 @@
 
 #Ignore remove the '#' lines or comment out when in use
 #Comment out all the later selected elements else it will not run the earlier version unless !important keyword is there. */
+
 h2 {
     color: blueviolet;
 /*     #used to cutomize foreground color of an element  */
