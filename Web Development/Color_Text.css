@@ -35,40 +35,40 @@ h5 {
 
 
 
-/* #Selectors
+/* #Selectors */
 
 * {
     color: purple;
-    #Universal selector
+/*     #Universal selector */
 }
 
 h2 {
     color: blue;
-    #This will get priority because it is written later
-    #Element selectors. can also write multiple elements together like h1, h2, h3 { ... }
+/*     #This will get priority because it is written later
+    #Element selectors. can also write multiple elements together like h1, h2, h3 { ... } */
 }
 
 #one {
     color: yellow;
-    #ID selectors, used to specify a particular element
+/*     #ID selectors, used to specify a particular element */
 }
 
 .first {
     color: brown;
-    #Class selectors, used to specify multiple elements, the whole class can have different types of elements
+/*     #Class selectors, used to specify multiple elements, the whole class can have different types of elements */
 }
 
 #box {
     background-color: blue;
     color: burlywood;
-    #div specified.
+/*     #div specified. */
 }
 
 .button {
     background-color: lawngreen;
     color: black;
-    #Element inside div
-} */
+/*     #Element inside div */
+}
 
 
 
