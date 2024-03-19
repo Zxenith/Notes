@@ -128,5 +128,26 @@ p {
 
 
 
-/* Units in CSS */
+/* Units in CSS
+Absolute units: size(cm, inch) but mostly pixels. 
+96px = 1 inch = 2.54cm*/
 
+#one{
+    font-size: 25px;
+    /* Defines font size with unit. */
+}
+
+#two{
+    font-size: 0.5in;
+    text-transform: uppercase;
+    /* Transform to grammatical things. */
+}
+
+#three{
+    font-size: 2cm;
+}
+
+#four{
+    line-height: 2px;
+    /* overlapping */
+}
