@@ -1,0 +1,131 @@
+/* #Color Schemes
+#Use mdn website to learn different styles.
+
+#Ignore remove the '#' lines or comment out when in use 
+h2 {
+    color: blueviolet;
+    #used to cutomize foreground color of an element 
+
+}
+
+button {
+    color: brown;
+    background-color: orange;
+}
+
+body {
+    background-color: grey;
+    #Sets a backgorund color to any element (the whole body in this case). Note that default black text will remain black if c=black. 
+}
+
+h6 {
+    color: rgb(34, 94, 29);
+    background-color: white;
+    #Use color picker on google to see rgb
+}
+
+h5 {
+    color: #ff0000;
+    #Can use hexademical number system for color schemes like this
+    #The format is RR-GG-BB for the digits indicating numbers
+} */
+
+
+
+
+
+/* #Selectors
+
+* {
+    color: purple;
+    #Universal selector
+}
+
+h2 {
+    color: blue;
+    #This will get priority because it is written later
+    #Element selectors. can also write multiple elements together like h1, h2, h3 { ... }
+}
+
+#one {
+    color: yellow;
+    #ID selectors, used to specify a particular element
+}
+
+.first {
+    color: brown;
+    #Class selectors, used to specify multiple elements, the whole class can have different types of elements
+}
+
+#box {
+    background-color: blue;
+    color: burlywood;
+    #div specified.
+}
+
+.button {
+    background-color: lawngreen;
+    color: black;
+    #Element inside div
+} */
+
+
+
+
+
+/* #Text Properties
+
+#box {
+    text-align: right;
+    #Aligns text, Left, Center and Right
+}
+#There are also start and end which depend upon the language.
+
+h1 {
+    text-align: center;
+    #Allignment occurs only according to the parent tag.
+
+    text-decoration: overline;
+    #Have underline, overline and line through like features
+}
+
+a {
+    text-decoration: none;
+    #Helps remove underline from default anchor tag
+}
+
+p {
+    text-decoration: red wavy underline;
+    #Gives a red underline feature   
+}
+
+#h2_1 {
+    font-weight: normal;
+    #Boldness of the text
+}
+
+#h2_2 {
+    font-weight: bold;
+}
+
+#h2_3 {
+    font-weight: lighter;
+}
+
+#h2_4 {
+    font-weight: 100;
+    #Range is 100 (lightest) - 900 (darkest)
+}
+
+#box {
+    font-family: Arial, Helvetica, sans-serif;
+    #Specifying the font style of the text  Format: written in order so that if previous font is not available on the pc, the later font style gets applied. 
+
+    font-size: small;
+    #Specifying size of the font
+} */
+
+
+
+/* Units in CSS */
+
