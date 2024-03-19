@@ -1,10 +1,11 @@
 /* #Color Schemes
 #Use mdn website to learn different styles.
 
-#Ignore remove the '#' lines or comment out when in use 
+#Ignore remove the '#' lines or comment out when in use
+#Comment out all the later selected elements else it will not run the earlier version unless !important keyword is there. */
 h2 {
     color: blueviolet;
-    #used to cutomize foreground color of an element 
+/*     #used to cutomize foreground color of an element  */
 
 }
 
@@ -15,20 +16,20 @@ button {
 
 body {
     background-color: grey;
-    #Sets a backgorund color to any element (the whole body in this case). Note that default black text will remain black if c=black. 
+/*     #Sets a backgorund color to any element (the whole body in this case). Note that default black text will remain black if c=black.  */
 }
 
 h6 {
     color: rgb(34, 94, 29);
     background-color: white;
-    #Use color picker on google to see rgb
+/*     #Use color picker on google to see rgb */
 }
 
 h5 {
     color: #ff0000;
-    #Can use hexademical number system for color schemes like this
-    #The format is RR-GG-BB for the digits indicating numbers
-} */
+/*     #Can use hexademical number system for color schemes like this
+    #The format is RR-GG-BB for the digits indicating numbers */
+}
 
 
 
