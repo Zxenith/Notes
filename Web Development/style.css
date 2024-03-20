@@ -1,0 +1,98 @@
+/* Box Model */
+
+
+/* Content Height and Width */
+
+#first{
+    height: 100px;
+    /* Sets height for the element */
+    
+    background-color: pink;
+
+    width: 100px;
+    /* Setting the width */
+}
+
+/* Border Properties */
+
+#second{
+    height: 50px;
+    width: 150px;
+    border-width: 15px;
+    border-style: dashed;
+    border-color: black;
+    /* Different border attributes */
+
+    text-align: center;
+    /* Goes according to assigned space */
+}
+
+#third{
+    border: 5px dotted black;
+    /* Gets width style and color all in same property */
+   
+    width: 500px;
+    text-align: center;
+}
+
+#fourth{
+    border: 5px solid brown;
+    border-radius: 10px;
+    /* Can also be percentage like 50% for a circle*/
+
+    background-color: pink;
+    text-align: center;
+}
+
+/* Padding properties */
+/* It's the space between content and border area*/
+
+#fifth{
+    height: 100px;
+    width: 125px;
+    border: 5px solid orange;
+    background-color: aqua;
+
+    padding-left: 30px;
+    /* Defines the space between content and border */
+    padding-top: 50px;
+}
+
+#sixth{
+    height: 100px;
+    width: 125px;
+    border: 5px solid orange;
+    background-color: aqua;
+
+    padding: 25px;
+    /* Applies to all directions */
+}
+
+#seventh{
+    height: 100px;
+    width: 125px;
+    border: 5px solid orange;
+    background-color: aqua;
+
+    padding: 2px 5px 6px 15px;
+    /* Applies T-R-B-L clockwise */
+}
+
+/* Margin */
+/* Area between boxes */
+
+#m1{
+    margin-bottom: 10px;
+    height: 100px;
+    width: 125px;
+    border: 5px solid orange;
+    background-color: aqua;
+    /* Similar stances to padding */
+}
+
+#m2{
+    height: 100px;
+    width: 125px;
+    border: 5px solid orange;
+    background-color: aqua;
+}
