@@ -1,4 +1,5 @@
 #Some basic matplotlib.pyplot functions and features. Give them a try.
+#Datasets available in SupervisedML repository.
 
 """from matplotlib import pyplot as plt
 import numpy as np
