@@ -1,0 +1,117 @@
+/* Display Settings */
+
+#d1{
+    background-color: pink;
+    color: black;
+    display: inline;
+    /* Sets display to inline or block elements */
+}
+
+#d2{
+    display: block;
+}
+
+.deco{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    /* Takes only required space */
+}
+
+/* Drawback of inline display has margin/width-height cannot be set for top and bottom */
+
+.deco2{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    /* Other properties can be set easily */
+    background-color: rgba(255,0,0,0.5)
+    /* regba values can be set where a is opacity */
+}
+
+/* When visibility is set to none, space for the element is reserved but for display as none, no space is reserved or blocked for the tagged element. */
+
+/* See absolute units: since different screens and tags have different sizes
+% = width, height, margin, etc. gets changed according to the parent tag 
+em = defines how much times the child text will be to parent tag, 2em = 2 * parent font-size but in width, it will see the width of element not parent font size.
+rem = font size of the root element
+vh and vw*/
+
+/* Position */
+/* Absolute useful for headers and footers */
+
+div{
+    height: 75px;
+    width: 75px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin: 2px;
+    color: chartreuse;
+}
+
+#box1{
+    position: static;
+    /* Default position */
+    /* Cannot be changed for top bottom etc. */
+}
+
+#box2{
+    position: relative;
+    /* Gets relatively positioned according to it's boundary */
+    top: 10px;
+}
+
+#box3{
+    position: absolute;
+    /* positioned according to its closesst positioned ancestor. body tag in this case */
+    top: 50%;
+    left: 200px;
+}
+
+#box4{
+    position: fixed;
+    /* positioned relative to browser */
+    /* Useful for navbars */
+}
+
+/* There's also sticky position that when scrolling reaches it's position, it gets sticked to the page like fixed */
+
+/* z-index */
+
+/* First written is under-lapped */
+/* Second element is over-lapped */
+
+/* z-index sets the priority in this case */
+/* Stack elements in general. z-axis of 3d plane */
+
+/* Background Image */
+
+#box1{
+    background-image: url("Python-programming-india.jpg");
+
+    background-size: cover;
+    /* No empty space, covers div completely */
+}
+
+/* Contain: the image is covered completely */
+
+#box2{
+    background-image: url("Python-programming-india.jpg");
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    /* stops it from repeating */
+}
+
+#box4{
+    background-image: url("Python-programming-india.jpg");
+    background-size: auto;
+}
