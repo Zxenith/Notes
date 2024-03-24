@@ -224,6 +224,8 @@ print(var[0,0:])
 print(var[0,0:2])
 print(var[0,0::2])
 """
+
+
 """
 #Iteration
 
