@@ -196,7 +196,8 @@ print(var2)
 
 print(var1 + var2) #Cannot be done in same shape but different size, but this will generate a 2D array (a,b) + (c,d) = max(a or c), max(b,d)
 """
-""""
+
+"""
 #Indexing
 
 import numpy as np
