@@ -62,8 +62,9 @@ print(int(t) + int(r))
 print(5*x)
 
 print(10*str(int(t)+int(r)))
-
 """
+
+
 """
 #Input function
 print("Enter the value")
