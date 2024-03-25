@@ -107,6 +107,8 @@ explode =[0.2,0.1,0,0,0.0025] #highliting by taking it out of the chart
 plt.pie(nums,labels=lang,explode=explode,autopct="%.2f%%",pctdistance=1.4,startangle=90)
 plt.show()
 """
+
+
 """
 Stack Plots are similar. Continuous filled graphs under lines. similar syntax.
 Filling area between lines and axis is also similar using fill_between function.
