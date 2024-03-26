@@ -1,0 +1,39 @@
+/* Media Queries */
+
+
+body{
+    text-align: center;
+}
+
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    /* display: inline-block;
+    border: 2px solid black; */
+}
+
+@media (width : 600px){
+    div{
+        background-color: red;
+        /* changes color at exactly 600px */
+    }
+}
+
+@media (min-width: 600px){
+    div{
+        background-color: blue;
+
+        /* Changes color >=600px */
+        /* similar with max-width */
+    
+    }
+}
+
+@media (min-width: 200px) and (max-width: 400px){
+    /* Getting a range */
+    div{
+        background-color: black;
+    }
+}
