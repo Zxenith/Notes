@@ -1,0 +1,73 @@
+/* FLEXBOX in CSS */
+/* A one dimensional method for arranging items in rows or columns
+that too according to flex container only */
+
+
+body{
+    text-align: center;
+}
+
+/* justify-content
+flex-wrap
+align-items
+align-content 
+align-self 
+flex-grow
+flex-shrink */
+
+div{
+    height: 75px;
+    width: 80px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    /* row by default L->R and row-reverse is L<-R */
+    /* has column and column reverse similarily */
+    
+    justify-content: space-around;
+    /* flex-start,end and center */
+    /* Space properties gives space to elements. Must see, evenly, around and between */
+    
+    flex-wrap: wrap;
+    /* gives multiple lines */
+
+    align-items: flex-start;
+    /* Aligns all items to main axis */
+
+    align-content: flex-start;
+    /* All content is aligned to flex , space between elements*/
+}
+
+#box1{
+    background-color: blue;
+
+}
+
+#box2{
+    background-color: red;
+    align-self: flex-end;
+    /* Gets aligned to it's assigned area available */
+}
+
+#box3{
+    background-color: green;
+    height: 100px;
+}
+
+#box4{
+    background-color: yellow;
+    
+}
+
+#box5{
+    background-color: orange;
+    flex-grow: 0.5;
+    /* flex-shrink similarily shrinks the size of the div factor */
+}
+
