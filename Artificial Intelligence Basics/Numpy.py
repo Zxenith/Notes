@@ -384,6 +384,8 @@ print(y)
 #Insert and delete work same way like list but see syntax insert = np.insert(array, position, element) positions can be multiple and with multi dimensions but with axis as after 3rd comma
 #Delete syntax = np.delete(array, position)
 """
+
+
 """
 #MATRIX
 
