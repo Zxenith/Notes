@@ -1,4 +1,4 @@
-CSS
+TailwindCSS
 Js React
 VueJS
 expressJS
