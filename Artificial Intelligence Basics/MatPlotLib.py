@@ -171,6 +171,8 @@ plt.tight_layout()
 
 plt.show()
 """
+
+
 """
 #SEE LIVE DATA PLOTTING IN MATPLOTLIB BECAUSE IT IS CONFUSING
 
