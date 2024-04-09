@@ -254,6 +254,8 @@ for i in np.nditer(var2,flags=['buffered'],op_dtypes=["S"]): #Buffered creates e
 for i,d in np.ndenumerate(var2): #Will iterate dimensions as well while showing dimension as well as item
     print(i,d)
 """
+
+
 """
 #Copy and Views (Must see theoritical difference)
 
