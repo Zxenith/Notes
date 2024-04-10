@@ -1165,6 +1165,8 @@ print(harry.no_of_leaves) #Public calling
 print(harry._this) #Protected calling
 print(harry._Employee__praa) #Private calling
 """
+
+
 """
 #Polymorphism (Different faces of two things.)
 #Abstraction, Encapsulation, Decorators, Inheritance (class, abstract and static,etc methods)
