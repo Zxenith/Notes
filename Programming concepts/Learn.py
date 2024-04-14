@@ -1062,6 +1062,8 @@ keshav = Programmer("Keshav",9000,"Programmer",["Java","C++"])
 print(keshav.printdetails())
 print(keshav.printprog())
 """
+
+
 """
 #Multiple Inheritance
 
