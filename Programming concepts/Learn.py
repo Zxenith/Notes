@@ -1108,6 +1108,8 @@ det = karan.printdetails()
 print(det)
 print(karan.var) #Will run variable with first prefrence
 """
+
+
 """
 #Multilevel Inheritance
 
