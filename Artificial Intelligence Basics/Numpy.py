@@ -337,6 +337,8 @@ new1 = np.array_split(ar, 2)
 print(new)
 print(new1) #Can do same with multiple dimensions also with axis with shape and dtype outputs
 """
+
+
 """
 #Functions
 
