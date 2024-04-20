@@ -1022,6 +1022,8 @@ print(rohan.printgood())
 """
 #Abstraction and Encapsulation
 """
+
+
 """
 #Single Inheritance
 
