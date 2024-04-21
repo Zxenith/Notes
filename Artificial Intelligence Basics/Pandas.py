@@ -95,6 +95,8 @@ df.to_csv('ex.csv')
 
 print(df)
 """
+
+
 """
 #Functions
 import numpy as np
