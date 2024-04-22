@@ -1020,6 +1020,8 @@ rohan = Employee("Rohan",4555,"Student")
 print(rohan.printgood())
 """
 """
+
+
 #Abstraction and Encapsulation
 """
 
