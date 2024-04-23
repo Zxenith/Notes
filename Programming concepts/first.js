@@ -17,6 +17,7 @@ marks.forEach((val) => {
 console.log(sum);
 
 let done = ((mark) => {
+    
     let sumo = 0;
     for(i = 0; i < mark.length; i++){
         sumo += mark[i];
