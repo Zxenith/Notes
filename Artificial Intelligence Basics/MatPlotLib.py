@@ -206,6 +206,8 @@ plt.show()
 # y1 = data['total_1']
 # y2 = data['total_2']
 """
+
+
 """
 import pandas as pd
 from matplotlib import pyplot as plt
