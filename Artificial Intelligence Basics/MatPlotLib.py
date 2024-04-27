@@ -95,7 +95,6 @@ plt.hist(ages,bins=20,cumulative=True) #arg,sections,order
 plt.show()
 """
 
-
 """
 import numpy as np
 from matplotlib import pyplot as plt
