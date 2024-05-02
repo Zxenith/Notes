@@ -245,5 +245,4 @@ plt.show()
 
 fig.savefig('Subplots.png')
 #Use savefig to save the image of the figure
-
 """
