@@ -102,6 +102,7 @@ varpow = np.power(var1,var2) #var1**var2
 
 print(varadd)
 print(varadd2)
+
 print(varmul)
 print(varpow)
 """
