@@ -14,6 +14,7 @@ def preprocessing(img):
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     imgBlur = cv2.GaussianBlur(imgGray, (5,5), 0)
     imgcanny = cv2.Canny(imgBlur, 100, 200)
+    
     ker = np.ones((5, 5), np.uint8)
     imgdial = cv2.dilate(imgcanny, ker, iterations=1)
     imgerode = cv2.erode(imgdial,ker,iterations=1)
