@@ -20,7 +20,6 @@ devy = [10000,20000,35000,31200,17000,54000,23000,26000]
 
 # plt.plot(x,y, 'k--', label = 'What')
 # plt.plot(x,y, color = 'k', linestyle = '--', marker = '.', label = 'What')
-#
 # plt.plot(x,devy, linewidth = '5', label = 'How')
 
 plt.bar(indexx - width/2 ,devy, width = width ,label = 'What')
