@@ -9,6 +9,7 @@ web.set(4, 480)
 while True:
     ret, frame = web.read()
     imgc = frame.copy()
+    
     frame1 = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     frame2 = cv2.GaussianBlur(frame1, (7, 7), 0)
     frame3 = cv2.Canny(frame2, 50, 200)
