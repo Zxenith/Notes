@@ -127,6 +127,7 @@ print(type(newdf[0]))
 newdf.columns = list("ABCDE")
 print(newdf)
 print(newdf.head(2))
+
 print(newdf.loc[[1,2],['C','D']]) #Row and column syntax, can write : for all possible values in the particular area.
 #Can insert conditions in the loc function as required
 
