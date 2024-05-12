@@ -1,5 +1,6 @@
 #All the basic Python concepts that are needed in the first semester university level college exams or basic Competitive Programming.
 
+
 """
 Comments
 #Python will not print this text
