@@ -994,6 +994,8 @@ harish = Employee("Harish",455,"Instructor")
 rohan = Employee("Rohan",4555,"Student")
 karan = Employee.from_str("Karan-480-Student")
 """
+
+
 """
 #Static methods (Doubt)
 
