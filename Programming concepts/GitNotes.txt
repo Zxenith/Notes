@@ -35,6 +35,7 @@ $ git add git.html
 $ git commit
 
 Commit window:
+
 	Initial commit ~"This is just a message"
 	
 	'esc' :wq
